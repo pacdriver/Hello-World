@@ -1,0 +1,10 @@
+#contents {
+    color: black;
+    background-color: red;
+    font-size: 24px;
+    font-weight: bold;
+    border-spacing: 0;
+    border: 4px solid black;
+    word-wrap: break-word;
+    width: 100%;
+}

@@ -1,0 +1,75 @@
+   
+/* http://stackoverflow.com/questions/12115247/how-do-you-make-an-image-blink */
+@keyframes blink {
+    0% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+.redStrikeText { color:red;text-decoration:line-through; }
+
+
+
+/* [Internet Explorer] removes blue icon border */
+a img {
+    border:0;
+ }
+
+.titleBar {
+  background-color:black;
+}
+.titleBarText {
+  color:white;
+  font-family:Calibri;
+}
+
+
+.widgetHeader 
+{
+    background: -webkit-linear-gradient(left , #474747, #A7A7B2) repeat scroll 0 0 transparent;
+    background: -moz-linear-gradient(left , #474747, #A7A7B2) repeat scroll 0 0 transparent;
+ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#A7A7B2', endColorstr='#474747');
+    
+  height:25px;
+  border-bottom: 3px solid white;
+  color:white;
+  font-weight:bold;
+  font-size:18px;
+
+-moz-border-radius:  15px 15px 0 0;
+-webkit-border-radius:  15px 15px 0 0;
+   border-radius: 15px 15px 0 0; 
+   border-style:solid;
+   border:4px solid black;
+
+  text-align:left; 
+  padding-left:15px;
+  width:100%;
+}
+
+.controlPanelGradient{
+    background: -moz-linear-gradient(center left , #A7A7B2, #474747) repeat scroll 0 0 transparent;
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#A7A7B2', endColorstr='#474747');
+    height: 200px;
+    width: 1000px;
+}
+
+body {
+ font-family:Calibri;
+ margin:0;
+}
+
+option 
+{
+  border-top: 1px solid white;
+  color:white;
+  text-transform:uppercase;
+  font-family:Calibri;
+  font-weight:bold;
+}
+
